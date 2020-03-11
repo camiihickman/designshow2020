@@ -1,0 +1,308 @@
+
+/*text styles*/
+h1{
+  font-family: "kolikoBold", "Roboto", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight:bold;
+  font-size: 100px;
+  letter-spacing: .035em;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+h2{
+font-family: 'BioRhyme', "Courier New", "Courier", monospace;
+color: white;
+font-size: 30px;
+text-align: center;
+margin: 18px;
+line-height: 1.25em;
+}
+h3{
+font-family: 'BioRhyme', "Courier New", "Courier", monospace;
+color: white;
+font-size: 30px;
+text-align: left;
+margin-left: 0px;
+line-height: 1.25em;
+}
+p a{
+  color:#00AEEF;
+  text-decoration: none;
+}
+p a:active{
+  color:#00AEEF;
+  text-decoration: none;
+}
+p a:visited{
+  color:#00AEEF;
+  text-decoration: none;
+}
+
+p{
+  font-family: "Ubuntu", "Roboto", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 18px;
+  max-width: 800px;
+  text-align: left;
+}
+
+/*header*/
+.header{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.logo{
+  max-width: 40%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align: center;
+  margin: auto;
+}
+.headerimg{
+  width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+/*navbar*/
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-content: : center;
+  justify-content: space-between;
+  padding: 20px 25% 20px 25%;
+  background-color: #00AEEF;
+  border-bottom: 20px solid #E11A22;
+}
+.navbar a{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "kolikoBold", "Roboto", Helvetica, Arial, sans-serif;
+  color: white;
+  opacity: 50%;
+}
+.navbar a:hover{
+  opacity: 100%;
+}
+.active{
+  opacity:100% !important;
+}
+/*footer*/
+.footer{
+  background-color:#F7981D;
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+}
+.footer h6{
+  text-transform:uppercase;
+  font-family: "Ubuntu", "Roboto", Helvetica, Arial, sans-serif;
+  color: #231f20;
+  font-size: 18px;
+  padding: 20px;
+}
+.bottom{
+  background-color: transparent;
+  border: none;
+  padding-bottom: 100px;
+}
+/*inline starburst images for desktop*/
+h2 .starburst{
+  display: inline;
+  max-width:24px;
+}
+
+.starburst{
+  justify: center;
+}
+
+/*button*/
+a{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration:none;
+}
+a h3{
+  text-transform: uppercase;
+  letter-spacing: .025em;
+}
+
+.button{
+  background-color:#F7981D;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  border-radius: 10px;
+}
+
+/*hover, click, visited effect for button color change???*/
+.button:hover{
+  background-color:#00A651;
+  transition-duration: .5s;
+}
+.button{
+  transition-duration: .5s;
+}
+.button:active{
+  background-color:#E11A22;
+  transition-duration: .5s;
+}
+
+/*page formatting*/
+body{
+  background-color: #231f20;
+  margin: 0;
+  padding:0;
+}
+.container{
+  margin: 0;
+  width: calc(100%-40px);
+  max-width: calc(100%-40px);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flexelement{
+  width:800px;
+}
+/*judges*/
+.red{
+  background-color: #ED1C24;
+}
+.yellow{
+  background-color: #F7981D;
+}
+.blue{
+  background-color:#00AEEF;
+}
+.green{
+  background-color:#00A651;
+}
+
+.judgetext{
+  margin: 20px 20px 0px 20px;
+}
+
+.judge{
+  border-radius: 10px;
+  width: 800px;
+  max-width: 100%;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.judge p{
+  font-size: 15px;
+}
+.judge img{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.judge h4{
+  color: white;
+  font-family: "kolikoBold", "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 0px;
+}
+.judge h5{
+  color: white;
+  font-family: "BioRhyme", "Courier New", Courier, monospace;
+  font-size: 18px;
+  margin: 0px;
+}
+img{
+  max-width: 100%;
+}
+/*eboard*/
+.eboard{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.eboardmember img{
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+}
+.eboardmember h4{
+  font-family: "Ubuntu", "Roboto", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.eboardmember h5{
+  font-family: "Ubuntu", "Roboto", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  font-weight: normal;
+  margin-top: 0px;
+}
+/*small screen media query*/
+@media (max-width: 800px) {
+  /*put fonts in vw for mobile*/
+  h1{
+    font-size: 20vw;
+    line-height: 1em;
+  }
+  h2{
+    font-size: 6vw;
+  }
+  p{
+    font-size: 4vw;
+  }
+  h5{
+    font-size: 6vw;
+  }
+  /* navbar*/
+  .navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .navbar a{
+    font-size: 6vw;
+  }
+  /*element widths for small screen*/
+  .flexelement{
+    max-width: 90%;
+  }
+  .eboardmember{
+    width: 300px;
+    max-width:70%;
+    align: center;
+    margin: auto;
+  }
+  .judge{
+    display: block;
+  }
+  .judge img{
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    width: 100%;
+  }
+  .judgetext{
+    padding:10px;
+  }
+  .eboard{
+    display: block;
+  }
+  /*starburst, h2 block for mobile*/
+  h2  .starburst{
+    display: block;
+    margin: auto;
+    width: inherit;
+  }
+  }
